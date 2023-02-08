@@ -7,9 +7,9 @@ I then tried creating a simple webiste on my own using RoR to get the hang of it
 
 I also forked and created a local copy of OpenProject to go through the code and to try out the application. Go through the OpenProject link attached below. The installation steps there are sufficient.
 
-Some links:
-->https://www.youtube.com/watch?v=fmyvWz5TUWg
-->https://www.openproject.org/
+Some links:  
+->https://www.youtube.com/watch?v=fmyvWz5TUWg  
+->https://www.openproject.org/  
 ->
 
 Test Push
