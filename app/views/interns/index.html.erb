@@ -1,0 +1,23 @@
+
+
+
+
+<div class="card mb-3 d-flex align-items-center justify-content-center" style="max-width: 40rem; margin:auto" id="interns">
+  <p style="color: green"><%= notice %></p>
+  <h1>Interns</h1>
+  <% @interns.each do |intern| %>
+    <div class =" card mb-3 text-white bg-dark align-items-center"  style="width: 50%">
+      <%= render intern %>
+      <p>
+        <%= link_to "Show this intern", intern , class:"btn btn-outline-success"%>
+      </p>
+    </div>
+    <br>
+  <% end %>
+  
+  
+  <%=  link_to "New intern", new_intern_path , class:"btn btn-outline-dark"%>
+</div>
+
+
+

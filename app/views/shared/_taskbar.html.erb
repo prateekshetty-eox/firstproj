@@ -1,0 +1,29 @@
+<nav class="navbar bg-dark" data-bs-theme="dark">
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <%= link_to "Home", root_path, class:"nav-link active"%>
+    
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Intern Activities</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://eos.eoxvantage.com:9050/projects/p0a3891d0-da6a-45de-81ae-7b5fc20da393/wiki/onboarding-for-developers" target=_blank>Onboarding</a></li>
+      <li><a class="dropdown-item" href="https://lms.eoxvantage.com/moodle/course/index.php?categoryid=23" target=_blank>LMS</a></li>
+      <li><a class="dropdown-item" href="https://github.com/eoxvantage-com" target=_blank>Teams and Projects</a></li>
+
+      <li><hr class="dropdown-divider"></li>
+      <li><%=  link_to "Interns", interns_path ,class:"dropdown-item"%></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.eoxvantage.com/" target=_blank>EOX Website</a>
+  </li>
+
+  <li class="nav-item">
+    <%= link_to "About Us", about_information_path , class:"nav-link inactive"%>
+    
+  </li>
+
+
+</ul>
+</nav>

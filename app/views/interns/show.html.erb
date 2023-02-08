@@ -1,0 +1,14 @@
+
+<div class="card mb-3 d-flex align-items-center justify-content-center" style="max-width:30rem; margin:auto">
+<p style="color: green"><%= notice %></p>
+<%= render @intern %>
+
+<div >
+  <%= link_to "Edit this intern", edit_intern_path(@intern) , class:"btn btn-outline-dark"%> |
+  <%= link_to "Back to interns", interns_path , class:"btn btn-outline-dark" %>
+
+ 
+</div>
+<br>
+ <%= button_to "Destroy this intern", @intern, method: :delete, class:"btn btn-outline-danger" %>
+</div>
