@@ -13,3 +13,5 @@ Some links:
 ->
 
 To run this project, get a local copy on your system, cd into the project directory, type the "rails s" command in the terminal (assuming rails has already been installed on your system) and then open the localhost:3000 on your browser.
+
+Go ahead and make changes according to your requirements and play around the application.
