@@ -8,9 +8,10 @@ jobs:
   build:
     working_directory: ~/firstproj
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: circleci/ruby:2.6.0
     steps:
       - checkout
+      - run: gem update system
       - run: gem install bundler
       - run: bundler install
       - run: rails s
