@@ -14,4 +14,5 @@ jobs:
       - run: gem update system
       - run: gem install bundler
       - run: bundler install
-      - run: rails s
+      #- run: rails s
+      
