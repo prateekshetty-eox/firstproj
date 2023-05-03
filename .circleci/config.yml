@@ -6,7 +6,7 @@ description: |
 
 jobs:
   build:
-    working_directory: firstproj
+    working_directory: ~/firstproj
     docker:
       - image: circleci/ruby:2.4.1
     steps:
