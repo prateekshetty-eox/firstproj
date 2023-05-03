@@ -1,0 +1,15 @@
+version: 2.1
+
+description: |
+  Common commands for Ruby on Rails setup, code hygiene, and security checks
+  View this orb's source: https://github.com/Latermedia/circle-ci-ruby-rails-setup
+
+jobs:
+  build:
+    working_directory: firstproj
+    docker:
+      - image: circleci/ruby:2.4.1
+    steps:
+      - checkout
+    -run:
+        - rails s
